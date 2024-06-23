@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body{
     background-color: #52436b;
@@ -33,3 +34,40 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+=======
+
+body{
+    background-color: #52436b;
+}
+
+
+.meme-generator{
+    text-align: center;
+    font-family: 'Roboto' ,  sans-serif;
+}
+.meme-generator img{
+    height:430px;
+    object-fit: cover;
+}
+.meme-generator .generate-meme-button {
+    padding:8px 20px;
+    border:0px;
+    border-left:  4px solid #222;
+    border-right:  4px solid #222;
+    margin:24px 0;
+    font-size:24px;
+    background: #fff;
+    cursor: pointer;
+    transition:.4s ease;
+}
+.meme-generator .generate-meme-button:hover{
+    padding: 8px 36px;
+    border-left:  8px solid #222;
+    border-right: 8px solid #222;    
+}
+.meme-generator .meme-author{
+    margin:8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+>>>>>>> a7810997f1dc526cdc7a3d6b49618604db952682

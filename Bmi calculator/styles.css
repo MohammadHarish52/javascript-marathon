@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body{
@@ -46,4 +47,54 @@ button:hover{
     color:#331D2C;
     background-color:#EFE1D1 ;
     border:none;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    margin:0%;
+    padding:0%;
+    color:white;
+    font-family:'Poppins' , sans-serif;
+    background-color: #EFE1D1;
+}
+span{
+    color:#FFE17B;
+    text-align: left;
+   
+   
+}
+.wrapper{
+    position:absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding:15px;
+    background:#331D2C;
+    border-radius:5px;
+    box-shadow:rgb(38,57,77) 0px 20px 30px -10px
+}
+input{
+    outline:none;
+    border:none;
+    padding:5px;
+    background-color: #EFE1D1;
+    margin-bottom: 10px;
+
+}
+button{
+    color:#EFE1D1;
+    padding:10px;
+    background: #331D2C;
+    display:block;
+    cursor:pointer;
+    margin-top:10%;
+    transition: .7s ease;
+    border-radius: 5px;
+
+}
+button:hover{
+    color:#331D2C;
+    background-color:#EFE1D1 ;
+    border:none;
+>>>>>>> a7810997f1dc526cdc7a3d6b49618604db952682
 }
