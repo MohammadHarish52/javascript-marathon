@@ -1,0 +1,99 @@
+/* *{
+    padding:0;
+    margin:0;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+#game{
+    width:400px;
+    height:500px;
+    border:1px solid #000;
+    margin:auto;
+    overflow:hidden;
+}
+#block{
+    width:50px;
+    height:500px;
+    background-color: #000;
+    position:relative;
+    left:400px;  
+    animation:block 2s infinite linear; 
+}
+
+@keyframes block{
+    0%{
+        left:400px;
+    }
+    100%{
+        left:-50px;
+    }
+}
+#hole{
+    width:50px;
+    height:150px;
+    background-color: #ffffff;
+    position:relative;
+    left:400px;  
+    top:-500px;
+    animation:block 2s infinite linear; 
+}
+#character{
+    width:20px;
+    height:20px;
+    background-color: #f26363;
+    position:absolute;
+    top:100px;
+    border-radius:50%;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+}
+#game{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+}
+ h1{
+    font-family: sans-serif;
+    color:black;
+    margin:60px auto;
+    text-align: center;
+}
+#block{
+    width: 50px;
+    height: 500px;
+    background-color: brown;
+    position: relative;
+    left: 400px;
+    animation: block 2s infinite linear;
+}
+@keyframes block{
+    0%{left:400px}
+    100%{left:-50px}
+}
+#hole{
+    width: 50px;
+    height: 150px;
+    background-color: antiquewhite;
+    position: relative;
+    left: 400px;
+    top: -500px;
+    animation: block 2s infinite linear;
+}
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(43, 0, 255);
+    position: absolute;
+    top: 100px;
+    border-radius: 50%;
+}
